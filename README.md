@@ -1,33 +1,33 @@
-# 🚀 FundMyVision (C++)
+# 💡 FundMyVision (C++ Console App)
 
-**FundMyVision** is a simple C++ console app that connects **innovators** (people with ideas) and **investors** (people with money).  
-It saves data in files so you can see all users and ideas even after closing the app.
+A simple console-based platform to connect **Innovators** with **Investors**. Written in C++ using Object-Oriented Programming.
 
 ---
 
 ##  Features
 
- **Innovator**
-- Register and save your idea to a file  
-- View all innovators  
-- Search ideas by keyword  
+###  Investor
+- Register with name, password & budget
+- Suggest investment ideas based on budget
+- Login and view investment suggestion
+- Delete account
 
- **Investor**
-- Register and save your profile with budget  
-- Get suggestions based on your budget  
-- View all investors  
-
- **Admin**
-- View all innovators and investors  
-- Search ideas  
-- Match investors with innovators  
+###  Innovator
+- Register with name, idea & password
+- Login and update your idea
+- Delete account
 
 ---
 
-##  How to Run
+##  Technologies
+- C++ (OOP, file I/O)
+- `.txt` based flat file storage
+- Console-based interface
 
-1 Make sure you have C++ compiler like `g++`.  
+---
 
-2 Compile the program:
+##  How to Compile & Run
+
 ```bash
 g++ -o fundmyvision fundmyvision.cpp
+./fundmyvision
